@@ -1,0 +1,45 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    { "path": "pages/home/home", "style": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true } },
+    { "path": "pages/category/category", "style": { "navigationBarTitleText": "分类" } },
+    { "path": "pages/cart/cart", "style": { "navigationBarTitleText": "购物车" } },
+    { "path": "pages/profile/profile", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/product/detail", "style": { "navigationBarTitleText": "商品详情" } },
+    { "path": "pages/checkout/checkout", "style": { "navigationBarTitleText": "确认订单" } },
+    { "path": "pages/orders/orders", "style": { "navigationBarTitleText": "我的订单", "enablePullDownRefresh": true } },
+    { "path": "pages/order-success/index", "style": { "navigationBarTitleText": "支付成功" } },
+    { "path": "pages/profile-info/index", "style": { "navigationBarTitleText": "个人信息" } },
+    { "path": "pages/address/address", "style": { "navigationBarTitleText": "收货地址" } },
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录" } },
+    { "path": "pages/support/support", "style": { "navigationBarTitleText": "客服支持" } },
+    { "path": "pages/settings/settings", "style": { "navigationBarTitleText": "设置" } },
+    { "path": "pages/review/review", "style": { "navigationBarTitleText": "评价" } },
+    { "path": "pages/search/search", "style": { "navigationBarTitleText": "搜索", "navigationStyle": "custom" } },
+    { "path": "pages/payment/payment", "style": { "navigationBarTitleText": "确认支付" } }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "shopMal",
+    "backgroundColor": "#f9fafb"
+  },
+  "tabBar": {
+    "color": "#6b7280",
+    "selectedColor": "#EF4444",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "首页", "iconPath": "static/tabbar/home.png", "selectedIconPath": "static/tabbar/home-active.png" },
+      { "pagePath": "pages/category/category", "text": "分类", "iconPath": "static/tabbar/category.png", "selectedIconPath": "static/tabbar/category-active.png" },
+      { "pagePath": "pages/cart/cart", "text": "购物车", "iconPath": "static/tabbar/cart.png", "selectedIconPath": "static/tabbar/cart-active.png" },
+      { "pagePath": "pages/profile/profile", "text": "我的", "iconPath": "static/tabbar/profile.png", "selectedIconPath": "static/tabbar/profile-active.png" }
+    ]
+  },
+  "uniIdRouter": {}
+}

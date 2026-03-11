@@ -1,0 +1,12 @@
+{
+  "name": "uni-code",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.11",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "sass": "^1.98.0"
+  }
+}
